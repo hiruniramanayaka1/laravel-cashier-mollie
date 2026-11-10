@@ -1,5 +1,6 @@
 name: Build and Deploy GitHub Page
 on:
+    workflow_dispatch:
     push:
         branches: [main]
         paths:
